@@ -4,6 +4,7 @@ import Problem_002.RecursiveEvenFib;
 import Problem_003.LargestPrimeFactor;
 import Problem_004.LargestPalindrome;
 import Problem_005.SmallestMultiple;
+import Problem_006.SumSquareDifference;
 
 public class Main {
     public static void main(String[] args) {
@@ -33,5 +34,9 @@ public class Main {
         // Problem 5
 //        SmallestMultiple small = new SmallestMultiple();
 //        System.out.println(small.smallestMultiple(20));
+
+        // Problem 6
+        SumSquareDifference sum = new SumSquareDifference();
+        System.out.println(sum.sumSquareDiff(100));
     }
 }
