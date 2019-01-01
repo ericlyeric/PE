@@ -5,6 +5,9 @@ import Problem_003.LargestPrimeFactor;
 import Problem_004.LargestPalindrome;
 import Problem_005.SmallestMultiple;
 import Problem_006.SumSquareDifference;
+import Problem_007.TenThousandthPrime;
+import Problem_008.LargestProduct;
+import Problem_009.SpecialPythagorus;
 
 public class Main {
     public static void main(String[] args) {
@@ -36,7 +39,19 @@ public class Main {
 //        System.out.println(small.smallestMultiple(20));
 
         // Problem 6
-        SumSquareDifference sum = new SumSquareDifference();
-        System.out.println(sum.sumSquareDiff(100));
+//        SumSquareDifference sum = new SumSquareDifference();
+//        System.out.println(sum.sumSquareDiff(100));
+
+        // Problem 7
+//        TenThousandthPrime ten = new TenThousandthPrime();
+//        System.out.println(ten.primeCount(10001));
+
+        // Problem 8
+//        LargestProduct lprod = new LargestProduct();
+//        System.out.println(lprod.greatestProduct(13));
+
+        // Problem 9
+        SpecialPythagorus pyth = new SpecialPythagorus();
+        System.out.println(pyth.pythagoreanTriplet(1000));
     }
 }
