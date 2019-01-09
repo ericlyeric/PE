@@ -93,15 +93,9 @@ public class GridProduct {
 
     private int checkLargest(int horizontal, int vertical, int lrDiagonal, int rlDiagonal) {
         int max = horizontal;
-        if (vertical > max) {
-            max = vertical;
-        }
-        if (lrDiagonal > max) {
-            max = lrDiagonal;
-        }
-        if (rlDiagonal > max) {
-            max = rlDiagonal;
-        }
+        if (vertical > max) max = vertical;
+        if (lrDiagonal > max) max = lrDiagonal;
+        if (rlDiagonal > max) max = rlDiagonal;
         return max;
     }
 }
