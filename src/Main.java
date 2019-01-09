@@ -9,6 +9,7 @@ import Problem_007.TenThousandthPrime;
 import Problem_008.LargestProduct;
 import Problem_009.SpecialPythagorus;
 import Problem_010.SumPrimes;
+import Problem_011.GridProduct;
 
 public class Main {
     public static void main(String[] args) {
@@ -48,7 +49,7 @@ public class Main {
 //        System.out.println(ten.primeCount(10001));
 
         // Problem 8
-//        LargestProduct lprod = new LargestProduct();
+//        GridProduct lprod = new GridProduct();
 //        System.out.println(lprod.greatestProduct(13));
 
         // Problem 9
@@ -56,7 +57,11 @@ public class Main {
 //        System.out.println(pyth.pythagoreanTriplet(1000));
 
         // Problem 10
-        SumPrimes sum = new SumPrimes();
-        System.out.printf("%.0f\n ", sum.sumPrime(2000000));
+//        SumPrimes sum = new SumPrimes();
+//        System.out.printf("%.0f\n ", sum.sumPrime(2000000));
+
+        // Problem 11
+        GridProduct prod = new GridProduct();
+        System.out.println(prod.calcProduct());
     }
 }
