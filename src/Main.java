@@ -10,6 +10,7 @@ import Problem_008.LargestProduct;
 import Problem_009.SpecialPythagorus;
 import Problem_010.SumPrimes;
 import Problem_011.GridProduct;
+import Problem_012.DivTriangle;
 
 public class Main {
     public static void main(String[] args) {
@@ -61,7 +62,11 @@ public class Main {
 //        System.out.printf("%.0f\n ", sum.sumPrime(2000000));
 
         // Problem 11
-        GridProduct prod = new GridProduct();
-        System.out.println(prod.calcProduct());
+//        GridProduct prod = new GridProduct();
+//        System.out.println(prod.calcProduct());
+
+        // Problem 12
+        DivTriangle div = new DivTriangle();
+        System.out.printf("%f", div.triangleDivisor(500));
     }
 }
