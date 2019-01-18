@@ -11,6 +11,7 @@ import Problem_009.SpecialPythagorus;
 import Problem_010.SumPrimes;
 import Problem_011.GridProduct;
 import Problem_012.DivTriangle;
+import Problem_013.LargeSum;
 
 public class Main {
     public static void main(String[] args) {
@@ -66,7 +67,11 @@ public class Main {
 //        System.out.println(prod.calcProduct());
 
         // Problem 12
-        DivTriangle div = new DivTriangle();
-        System.out.printf("%f", div.triangleDivisor(500));
+//        DivTriangle div = new DivTriangle();
+//        System.out.printf("%f", div.triangleDivisor(500));
+
+        // Problem 13
+        LargeSum sum = new LargeSum();
+        System.out.println(sum.sumLarge());
     }
 }
