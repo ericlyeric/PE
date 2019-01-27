@@ -12,6 +12,7 @@ import Problem_010.SumPrimes;
 import Problem_011.GridProduct;
 import Problem_012.DivTriangle;
 import Problem_013.LargeSum;
+import Problem_014.LongestCollatz;
 
 public class Main {
     public static void main(String[] args) {
@@ -71,7 +72,11 @@ public class Main {
 //        System.out.printf("%f", div.triangleDivisor(500));
 
         // Problem 13
-        LargeSum sum = new LargeSum();
-        System.out.println(sum.sumLarge());
+//        LargeSum sum = new LargeSum();
+//        System.out.println(sum.sumLarge());
+
+        // Problem 14
+        LongestCollatz col = new LongestCollatz();
+        System.out.println(col.longCollatz(1000000));
     }
 }
