@@ -13,6 +13,7 @@ import Problem_011.GridProduct;
 import Problem_012.DivTriangle;
 import Problem_013.LargeSum;
 import Problem_014.LongestCollatz;
+import Problem_015.LatticePaths;
 
 public class Main {
     public static void main(String[] args) {
@@ -76,7 +77,11 @@ public class Main {
 //        System.out.println(sum.sumLarge());
 
         // Problem 14
-        LongestCollatz col = new LongestCollatz();
-        System.out.println(col.longCollatz(1000000));
+//        LongestCollatz col = new LongestCollatz();
+//        System.out.println(col.longCollatz(1000000));
+
+        //Problem 15
+        LatticePaths lat = new LatticePaths();
+        System.out.println(lat.latPaths(20));
     }
 }
